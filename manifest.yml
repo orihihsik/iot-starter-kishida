@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-starter-kishida
+  host: iot-starter-kishida
+  disk_quota: 1024M
+  services:
+  - iot-starter-kishida-cloudantNoSQLDB
+  - iot-starter-kishida-iotf-service
+  - Natural Language Classifier-nx
